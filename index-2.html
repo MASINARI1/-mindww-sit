@@ -2,28 +2,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>MINDWW Website</title>
-    <style>
-        body {
-            background-image: url('MIND_WW_BACKGROUND_ALL_DIMMED.png');
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: white;
-            font-family: 'Avenir', sans-serif;
-        }
-        h1 {
-            font-family: 'Trajan', serif;
-            text-align: center;
-            margin-top: 20vh;
-            font-size: 2.5em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>MINDWW</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('MIND_WW_BACKGROUND_ALL_DIMMED.png');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Avenir', sans-serif;
+      color: white;
+    }
+
+    .hero {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+    }
+
+    .hero img {
+      max-width: 80%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-    <h1>MINDWW Website Placeholder</h1>
-    <p style="text-align: center;">Now running on the new starry background.</p>
+
+  <div class="hero">
+    <img src="mindww_homepage_hero_optimized.png" alt="MIND Logo and Tagline" />
+  </div>
+
 </body>
 </html>
